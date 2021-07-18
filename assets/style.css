@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f1f1f1;
+}
+
+.col-8 {
+    width: 66.666%;
+}
+
+.col-4 {
+    width: 33.3333%;
+}
+
+/* header */
+#header {
+    padding: 32px 16px;
+    text-align: center;
+}
+
+.web-name {
+    margin: 10px 0; 
+}
+.web-slogan{
+    margin: 15px 0;
+}
+
+.strong {
+    padding: 0 8px;
+    color: #fff;
+    background-color: #000;
+}
+
+.btn--white {
+    background-color: #fff;
+}
+
+.btn {
+    border: 1px solid #ddd;
+    padding: 12px 24px;
+    cursor: pointer;
+}
+
+.opt-60 {
+    opacity: 0.6;
+}
+/* content */
+#content {
+
+}
+
+#content::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+/* content left */
+.side-content {
+    float: left;
+}
+
+.section-content {
+    background-color: #fff;
+    margin: 16px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.section-content + .section-content {
+    margin-top: 40px;
+}
+.side-content img {
+    width: 100%;
+    display: block;
+}
+
+.side-content__body {
+    padding: 16px;
+    background-color: #fff;
+}
+
+.content__heading {
+    margin: 10px 0;
+}
+
+.content__subheading {
+    margin: 10px 0;
+}
+
+.about-section {
+    margin: 15px 0;
+    line-height: 1.5;
+}
+
+.section__footer {
+
+}
+
+.section__footer .comment {
+    float: right;
+}
+/* right content */
+.name-author {
+    margin: 10px 0;
+}
+
+/* post */
+.heading-topic{
+    padding: 28px 16px;
+    background-color: #f1f1f1;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.list-post{
+
+}
+
+.post-item{
+    padding: 16px;
+    display: flex;
+    border-bottom: 1px solid #ccc;
+}
+
+.img-topic{
+    width: 50px;
+    height: 50px;
+    margin-right: 16px;
+}
+
+.desc-topic{
+
+}
+
+/* tags */
+.tag__body {
+    padding: 16px;
+}
+
+.tag__body p {
+    line-height: 1.5;
+}
+
+.strong~ span {
+    background-color: #f1f1f1;
+    padding:0 8px;
+    margin-right: 8px;
+}
+/* footer */
+#footer {
+    background-color: #616161;
+    padding: 32px 16px;
+}
+
+#footer p {
+    margin-top: 30px;
+}
+
+.btn-black {
+    background-color: #000;
+    color: #fff;
+}
+
+@media (max-width:739px) {
+    .col-4, .col-8 {
+        width: 100%;
+    }
+}
